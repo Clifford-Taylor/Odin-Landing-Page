@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+}
+.o{
+    border: 1px solid red;
+}
+.container{
+    background: #1f2937; ;
+    min-height: 400px;
+    max-height: fit-content;
+    padding: 20px 25%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    flex: 1 1 auto;
+}
+.header .logo{
+    color: white;
+    height: 1em;
+    font-size: 24px;
+}
+.header .link-container{
+    margin-left: auto;
+    padding-top: 6px;
+    width: auto;
+    display: flex;
+    gap: 1em;
+}
+.link-container a{
+    color: #f9faf8;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: auto;
+}
+.content{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.content div{
+    flex: 1;
+}
+.title h1{
+    margin: 0px ;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.title p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.title button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 2em;
+    color: #f9faf8;
+    width: 80px;
+}
+
+.content .image{
+    color: white;
+    background-color: rgb(113, 127, 145);
+    text-align: center;
+    padding-top: 100px;
+    flex: 1;
+}
