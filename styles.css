@@ -173,6 +173,9 @@ body{
 }
 .layer5container{
     background: #1f2937; ;
-    min-height: 400px;
-    max-height: fit-content;  
+    height: fit-content;
+}
+.layer5container p{
+    color: white;
+    text-align: center;
 }
