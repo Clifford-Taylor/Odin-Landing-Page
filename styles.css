@@ -133,3 +133,46 @@ body{
     font-size: 24px;
     margin-bottom: 100px;
 }
+.layer4container{
+
+}
+.layer4container .content{
+    background-color: #3882f6;
+    height: 125px;
+    border-radius: 8px;
+    margin: 60px auto;
+    display: flex;
+}
+.layer4container .content div{
+    margin: auto 100px;
+    width: fit-content;
+    height: fit-content;
+    flex: 1 1 auto;
+}
+.layer4container .content div p{
+    width: fit-content;
+    color: white;
+    margin: auto;
+    margin-left: 0px;
+    font-size: 14px;
+}
+.layer4container .content div p.layer4title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.layer4container .content button{
+    width: 10px;
+    height: 2em;
+    flex: 1 1 auto;
+    margin: auto;
+    margin-right: 100px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.layer5container{
+    background: #1f2937; ;
+    min-height: 400px;
+    max-height: fit-content;  
+}
