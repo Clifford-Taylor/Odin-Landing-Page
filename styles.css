@@ -1,6 +1,8 @@
 body{
     margin: auto;
 }
+.layer5container,
+.layer4container,
 .layer3container,
 .layer2container,
 .layer1container{
@@ -79,17 +81,24 @@ body{
 .layer2container h1{
     text-align: center;
     margin-top: 20px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
 .layer2container .content{
     display: flex;
     gap: 50px;
-    width: fit-content;
+    width: auto;
+    height: auto;
     margin: auto;
     padding-top: 40px;
+    margin-bottom: 100px;
 }
 .layer2container .content div{
     width: fit-content;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 .layer2container .content div div{
     border: 2px solid #3882f6;
@@ -97,6 +106,7 @@ body{
     width: 150px;
     height: 150px;
     margin-right: 0px;
+    flex: 1 1 auto;
 }
 .layer2container .content div p{
     text-align: center;
@@ -104,4 +114,22 @@ body{
     margin-top: 6px;
     margin-bottom: 0px;
     font-size: 18px;
+}
+.layer3container{
+    background-color: #e5e7eb;
+    min-height: fit-content;
+}
+.layer3container .quote{
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.layer3container .quote-credit{
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 100px;
 }
